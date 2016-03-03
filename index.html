@@ -60,7 +60,7 @@
 <meta name="description" content="技术改变生活">
 <meta property="og:type" content="website">
 <meta property="og:title" content="三牛的技术博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://isanniu.github.io/index.html">
 <meta property="og:site_name" content="三牛的技术博客">
 <meta property="og:description" content="技术改变生活">
 <meta name="twitter:card" content="summary">
@@ -272,6 +272,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/study/" itemprop="url" rel="index">
+                    <span itemprop="name">study</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -301,7 +320,8 @@
       
         
           
-          &#x4E0B;&#x8F7D;ndk&#x5B98;&#x7F51;&#x4E0B;&#x8F7D;&#x5730;&#x5740; &#x4E0B;&#x8F7D;&#x5730;&#x5740; &#xFF08;&#x6211;&#x7528;&#x7684;&#x6700;&#x65B0;&#x7684;&#xFF0C;&#x8C8C;&#x4F3C;&#x4E4B;&#x524D;&#x7528;&#x7684;&#x65E7;&#x7248;&#x672C;&#x4E00;&#x76F4;&#x6709;&#x95EE;&#x9898;,&#x5EFA;&#x8BAE;&#x8FD
+          下载ndk官网下载地址 下载地址 （我用的最新的，貌似之前用的旧版本一直有问题,建议还是下载最新的，我用的是 android-ndk32-r10b-windows-x86_64.zip）
+新建android项目代码很简单123456789101112131415161718192021package com.sanniu.testjni;import android.os.Bundle;import android.support.v7.app.AppCompatActivity;import android.widget.TextView;public class MainActivity extends AppCompatActivity &#123;    static &#123;        System.loadLibrary("jniTest");    &#125;    public native String getStringFromNative();    @Override    protected void onCreate(Bundle savedIns
           ...
 
           <div class="post-more-link text-center">
@@ -361,7 +381,7 @@
       <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/uploads/default_avatar.jpg"
+               src="/uploads/default_avatar.png"
                alt="三牛" />
           <p class="site-author-name" itemprop="name">三牛</p>
           <p class="site-description motion-element" itemprop="description">技术改变生活</p>
@@ -375,11 +395,18 @@
           </div>
           
           
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
 
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
